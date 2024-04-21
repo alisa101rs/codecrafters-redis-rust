@@ -1,0 +1,222 @@
+[
+  {
+    "slug": "init",
+    "tester_log_prefix": "init",
+    "title": "init"
+  },
+  {
+    "slug": "ping-pong",
+    "tester_log_prefix": "ping-pong",
+    "title": "ping-pong"
+  },
+  {
+    "slug": "ping-pong-multiple",
+    "tester_log_prefix": "ping-pong-multiple",
+    "title": "ping-pong-multiple"
+  },
+  {
+    "slug": "concurrent-clients",
+    "tester_log_prefix": "concurrent-clients",
+    "title": "concurrent-clients"
+  },
+  {
+    "slug": "echo",
+    "tester_log_prefix": "echo",
+    "title": "echo"
+  },
+  {
+    "slug": "set_get",
+    "tester_log_prefix": "set_get",
+    "title": "set_get"
+  },
+  {
+    "slug": "expiry",
+    "tester_log_prefix": "expiry",
+    "title": "expiry"
+  },
+  {
+    "slug": "rdb-config",
+    "tester_log_prefix": "rdb-config",
+    "title": "rdb-config"
+  },
+  {
+    "slug": "rdb-read-key",
+    "tester_log_prefix": "rdb-read-key",
+    "title": "rdb-read-key"
+  },
+  {
+    "slug": "rdb-read-string-value",
+    "tester_log_prefix": "rdb-read-string-value",
+    "title": "rdb-read-string-value"
+  },
+  {
+    "slug": "rdb-read-multiple-keys",
+    "tester_log_prefix": "rdb-read-multiple-keys",
+    "title": "rdb-read-multiple-keys"
+  },
+  {
+    "slug": "rdb-read-multiple-string-values",
+    "tester_log_prefix": "rdb-read-multiple-string-values",
+    "title": "rdb-read-multiple-string-values"
+  },
+  {
+    "slug": "rdb-read-value-with-expiry",
+    "tester_log_prefix": "rdb-read-value-with-expiry",
+    "title": "rdb-read-value-with-expiry"
+  },
+  {
+    "slug": "repl-custom-port",
+    "tester_log_prefix": "repl-custom-port",
+    "title": "repl-custom-port"
+  },
+  {
+    "slug": "repl-info",
+    "tester_log_prefix": "repl-info",
+    "title": "repl-info"
+  },
+  {
+    "slug": "repl-info-replica",
+    "tester_log_prefix": "repl-info-replica",
+    "title": "repl-info-replica"
+  },
+  {
+    "slug": "repl-id",
+    "tester_log_prefix": "repl-id",
+    "title": "repl-id"
+  },
+  {
+    "slug": "repl-replica-ping",
+    "tester_log_prefix": "repl-replica-ping",
+    "title": "repl-replica-ping"
+  },
+  {
+    "slug": "repl-replica-replconf",
+    "tester_log_prefix": "repl-replica-replconf",
+    "title": "repl-replica-replconf"
+  },
+  {
+    "slug": "repl-replica-psync",
+    "tester_log_prefix": "repl-replica-psync",
+    "title": "repl-replica-psync"
+  },
+  {
+    "slug": "repl-master-replconf",
+    "tester_log_prefix": "repl-master-replconf",
+    "title": "repl-master-replconf"
+  },
+  {
+    "slug": "repl-master-psync",
+    "tester_log_prefix": "repl-master-psync",
+    "title": "repl-master-psync"
+  },
+  {
+    "slug": "repl-master-psync-rdb",
+    "tester_log_prefix": "repl-master-psync-rdb",
+    "title": "repl-master-psync-rdb"
+  },
+  {
+    "slug": "repl-master-cmd-prop",
+    "tester_log_prefix": "repl-master-cmd-prop",
+    "title": "repl-master-cmd-prop"
+  },
+  {
+    "slug": "repl-multiple-replicas",
+    "tester_log_prefix": "repl-multiple-replicas",
+    "title": "repl-multiple-replicas"
+  },
+  {
+    "slug": "repl-cmd-processing",
+    "tester_log_prefix": "repl-cmd-processing",
+    "title": "repl-cmd-processing"
+  },
+  {
+    "slug": "repl-replica-getack",
+    "tester_log_prefix": "repl-replica-getack",
+    "title": "repl-replica-getack"
+  },
+  {
+    "slug": "repl-replica-getack-nonzero",
+    "tester_log_prefix": "repl-replica-getack-nonzero",
+    "title": "repl-replica-getack-nonzero"
+  },
+  {
+    "slug": "repl-wait-zero-replicas",
+    "tester_log_prefix": "repl-wait-zero-replicas",
+    "title": "repl-wait-zero-replicas"
+  },
+  {
+    "slug": "repl-wait-zero-offset",
+    "tester_log_prefix": "repl-wait-zero-offset",
+    "title": "repl-wait-zero-offset"
+  },
+  {
+    "slug": "repl-wait",
+    "tester_log_prefix": "repl-wait",
+    "title": "repl-wait"
+  },
+  {
+    "slug": "streams-type",
+    "tester_log_prefix": "streams-type",
+    "title": "streams-type"
+  },
+  {
+    "slug": "streams-xadd",
+    "tester_log_prefix": "streams-xadd",
+    "title": "streams-xadd"
+  },
+  {
+    "slug": "streams-xadd-validate-id",
+    "tester_log_prefix": "streams-xadd-validate-id",
+    "title": "streams-xadd-validate-id"
+  },
+  {
+    "slug": "streams-xadd-partial-autoid",
+    "tester_log_prefix": "streams-xadd-partial-autoid",
+    "title": "streams-xadd-partial-autoid"
+  },
+  {
+    "slug": "streams-xadd-full-autoid",
+    "tester_log_prefix": "streams-xadd-full-autoid",
+    "title": "streams-xadd-full-autoid"
+  },
+  {
+    "slug": "streams-xrange",
+    "tester_log_prefix": "streams-xrange",
+    "title": "streams-xrange"
+  },
+  {
+    "slug": "streams-xrange-min-id",
+    "tester_log_prefix": "streams-xrange-min-id",
+    "title": "streams-xrange-min-id"
+  },
+  {
+    "slug": "streams-xrange-max-id",
+    "tester_log_prefix": "streams-xrange-max-id",
+    "title": "streams-xrange-max-id"
+  },
+  {
+    "slug": "streams-xread",
+    "tester_log_prefix": "streams-xread",
+    "title": "streams-xread"
+  },
+  {
+    "slug": "streams-xread-multiple",
+    "tester_log_prefix": "streams-xread-multiple",
+    "title": "streams-xread-multiple"
+  },
+  {
+    "slug": "streams-xread-block",
+    "tester_log_prefix": "streams-xread-block",
+    "title": "streams-xread-block"
+  },
+  {
+    "slug": "streams-xread-block-no-timeout",
+    "tester_log_prefix": "streams-xread-block-no-timeout",
+    "title": "streams-xread-block-no-timeout"
+  },
+  {
+    "slug": "streams-xread-block-max-id",
+    "tester_log_prefix": "streams-xread-block-max-id",
+    "title": "streams-xread-block-max-id"
+  }
+]
