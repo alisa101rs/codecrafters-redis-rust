@@ -1,3 +1,6 @@
+mod connection;
+mod transport;
+
 use std::{collections::HashMap, net::SocketAddr};
 
 use bytes::{Buf, Bytes, BytesMut};
@@ -11,6 +14,10 @@ use tokio::{
 };
 use tracing::instrument;
 
+pub use self::{
+    connection::Connection,
+    transport::{Listener, Transport},
+};
 use crate::{
     error::{RedisError, RedisError::ResponseFailed},
     replication::{NodeRole, OffsetId, ReplicationId},
